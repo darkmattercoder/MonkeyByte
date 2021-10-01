@@ -33,7 +33,7 @@ import bitstring
 
 class BinCalc:
     """ the main calculator class """
-    def __init__(self, currentValue=0):
+    def __init__(self, currentValue = 0):
         self._currentValue = currentValue
         self._currentBitarray = bitstring.BitArray(Bits().int = _currentValue)
 
